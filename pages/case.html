@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>訂閱方案</title>
+  </head>
+  <body>
+    <%- include('./layout/header'); -%>
+
+
+    <main>
+      <div class="container pt-3 pt-lg-11">
+        <ul class="list-unstyled d-flex breadcrumb">
+          <li><a href="index.html">首頁</a></li>
+          <li class="text-accent-200"><a href="case.html">訂閱方案</a></li>
+        </ul>
+      </div>
+
+
+      <div class="container">
+        <h2>訂閱方案</h2>
+        <ul class="list-unstyled d-flex justify-content-center pt-7 pt-lg-9 pb-1 pb-lg-6">
+          <li class="me-lg-5"><a class="btn btn-accent-200 rounded-0 text-white px-9 px-lg-10" href="#">年繳</a></li>
+          <li><a class="btn rounded-0 text-neutral-400 px-9 px-lg-10" href="#">月繳</a></li>
+        </ul>
+
+        <div class="row row-cols-lg-3 row-cols-1 pb-9 pb-lg-11 g-4">
+          <div class="col">
+            <div class="card d-flex flex-column h-100 text-neutral-400 bg-white">
+              <div class="card-body d-flex flex-column justify-content-between w-100">
+                <div class="content">
+                  <h5 class="card-title text-center">輕量型</h5>
+                  <p class="card-text text-center fs-1 fw-bold mb-9 mb-lg-10">NT 99 <span class="fs-4">/ 月</span></p>
+                  <ul class="list-unstyled pb-5">
+                    <li class="pb-1 pb-lg-4"><i class="bi bi-check-square-fill"></i> 每月最新文章無限閱讀</li>
+                    <li class="pb-1 pb-lg-4"><i class="bi bi-check-square-fill"></i> 專屬會員限定內容</li>
+                    <li><i class="bi bi-check-square-fill"></i> 定期電子報</li>
+                  </ul>
+                </div>
+                <div class="text-center mt-auto">
+                  <button class="btn btn-neutral-100 text-neutral-400 font-weight-bolder px-11" type="button">我要訂閱<i class="bi bi-arrow-right ms-2"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card d-flex flex-column h-100 text-neutral-400 bg-white">
+              <div class="card-body d-flex flex-column justify-content-between">
+                <div class="content">
+                  <h5 class="card-title text-center">玩咖型</h5>
+                  <p class="card-text text-center fs-1 fw-bold mb-9 mb-lg-10">NT 159 <span class="fs-4">/ 月</span></p>
+                  <ul class="list-unstyled pb-5">
+                    <li class="pb-1 pb-lg-4"><i class="bi bi-check-square-fill"></i> 每月最新文章無限閱讀</li>
+                    <li class="pb-1 pb-lg-4"><i class="bi bi-check-square-fill"></i> 專屬會員限定內容</li>
+                    <li class="pb-1 pb-lg-4"><i class="bi bi-check-square-fill"></i> 定期電子報</li>
+                    <li><i class="bi bi-check-square-fill"></i> 年度精選禮物</li>
+                  </ul>
+                </div>
+                <div class="text-center">
+                  <button class="btn btn-neutral-100 text-neutral-400 font-weight-bolder px-11" type="button">我要訂閱<i class="bi bi-arrow-right ms-2"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card d-flex flex-column h-100 bg-white border-accent-200">
+              <div class="card-body d-flex flex-column justify-content-between">
+                <div class="content">
+                  <h5 class="card-title text-center">家庭型</h5>
+                  <p class="card-text text-center fs-1 fw-bold text-accent-200">NT 599 <span class="fs-4 text-neutral-300">/ 月</span></p>
+                  <p class="card-text text-center fs-4 text-neutral-300 mb-9 mb-md-6"><del>NT 899</del></p>
+                  <ul class="list-unstyled pb-5">
+                    <li class="pb-1 pb-lg-4"><i class="bi bi-check-square-fill"></i> 每月最新文章無限閱讀</li>
+                    <li class="pb-1 pb-lg-4"><i class="bi bi-check-square-fill"></i> 專屬會員限定內容</li>
+                    <li class="pb-1 pb-lg-4"><i class="bi bi-check-square-fill"></i> 定期電子報</li>
+                    <li class="pb-1 pb-lg-4"><i class="bi bi-check-square-fill"></i> 年度精選禮物</li>
+                    <li class="pb-1 pb-lg-4"><i class="bi bi-check-square-fill"></i> 24/7 優先客戶服務</li>
+                    <li class="pb-1 pb-lg-4"><i class="bi bi-check-square-fill"></i> 為每個成員量身打造專屬行程</li>
+                    <li><i class="bi bi-check-square-fill"></i> 最多 5 個家庭成員共享</li>
+                  </ul>
+                </div>
+                <div class="text-center">
+                  <button class="btn btn-neutral-100 text-neutral-400 font-weight-bolder px-11" type="button">我要訂閱<i class="bi bi-arrow-right ms-2"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+    </main>
+
+
+    <%- include('./layout/footer'); -%>
+
+    <script type="module" src="../main.js"></script>
+  </body>
+</html>

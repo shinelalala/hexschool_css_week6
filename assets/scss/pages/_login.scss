@@ -1,0 +1,24 @@
+.form-input {
+    border: 0;
+    width: 100%;
+    background-color: #F8F9FA;
+    padding: 12px 16px;
+    font-weight: 600;
+}
+
+.login-btn {
+    margin-bottom: 8px;
+
+    img {
+        width: 18px;
+        height: 18px;
+        min-width: 0;
+        margin-right: 12px;
+    }
+}
+
+.other-method {
+    background: #FFF;
+    z-index: 20;
+    white-space: nowrap;
+}
